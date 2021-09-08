@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px; }
+
+.header {
+  height: 940px;
+  background-image: url(.././images/main-screen.jpg);
+  background-size: cover;
+  background-position: center; }
+  .header__top {
+    display: flex;
+    justify-content: space-around; }
+
+/*# sourceMappingURL=style.min.css.map */
