@@ -3,13 +3,65 @@ body {
   padding: 0;
   font-size: 16px; }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'PT Serif', serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: bold; }
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal; }
+
+a {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff; }
+
 .header {
   height: 940px;
   background-image: url(.././images/main-screen.jpg);
   background-size: cover;
   background-position: center; }
   .header__top {
+    height: 81px;
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-between;
+    align-items: center; }
+  .header__logo {
+    display: flex;
+    align-items: center; }
+    .header__logo-link {
+      margin-right: 20px; }
+    .header__logo-title {
+      width: 210px;
+      color: #fff;
+      font-size: 20px;
+      margin: 0; }
+    .header__logo-modification {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px; }
+  .header__information {
+    display: flex;
+    position: relative; }
+    .header__information-phone {
+      margin-right: 69px;
+      font-weight: bold;
+      font-size: 18px; }
+      .header__information-phone::before {
+        content: " ";
+        position: absolute;
+        background-image: url(.././images/H-phoneLink.svg); }
+
+.container {
+  width: 1120px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=style.min.css.map */

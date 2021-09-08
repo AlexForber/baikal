@@ -5,41 +5,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.min.css">
     <title>gulp project</title>
 </head>
 
 <body>
     <header class="header">
-
-        <div class="header__top">
-            <div class="header__logo">
-                <a href="" class=""><img class="header__logo-img" src="./assets/images/Group 28.svg" alt="Logo"></a>
-                <h3 class="header__logo-title">Байкальский отдых<span> Турагентство </span></h3>
+        <div class="container">
+            <div class="header__top">
+                <div class="header__logo">
+                    <a href="" class="header__logo-link"><img class="header__logo-img"
+                            src="./assets/images/Group 28.svg" alt="Logo"></a>
+                    <h3 class="header__logo-title">Байкальский отдых<span class="header__logo-modification">
+                            Турагентство </span></h3>
+                </div>
+                <div class="header__information">
+                    <a class="header__information-phone" href="tel:8-924-3-541-540">8-924-3-541-540</a>
+                    <address class="header__information-email">baikalholiday@mail.ru</address>
+                </div>
+                <button class="header__top-button">
+                    Оставить заявку
+                </button>
             </div>
-            <div class="header__top-information">
-                <a class="header__phone" href="tel:8-924-3-541-540">8-924-3-541-540</a>
-                <address class="header__email">baikalholiday@mail.ru</address>
+            <div class="header__menu">
+                <a class="header__menu-link" href="">Бронирование</a>
+                <a class="header__menu-link" href="">Экскурсии</a>
+                <a class="header__menu-link" href="">Туры на Байкал</a>
+                <a class="header__menu-link" href="">О Байкале</a>
+                <a class="header__menu-link" href="">О нас</a>
             </div>
-            <button class="header__top-button">
-                Оставить заявку
-            </button>
-        </div>
-        <div class="header__menu">
-            <a class="header__menu-link" href="">Бронирование</a>
-            <a class="header__menu-link" href="">Экскурсии</a>
-            <a class="header__menu-link" href="">Туры на Байкал</a>
-            <a class="header__menu-link" href="">О Байкале</a>
-            <a class="header__menu-link" href="">О нас</a>
-        </div>
-        <div class="header__main">
-            <h1 class="header__title">Путешествия
-                по Байкалу</h1>
-            <p class="header__text">Туры по самому красивому месту России.
-                Поехали с нами за новыми впечатлениями!</p>
-            <button class="header__button">
-                подобрать тур
-            </button>
+            <div class="header__main">
+                <h1 class="header__title">Путешествия
+                    по Байкалу</h1>
+                <p class="header__text">Туры по самому красивому месту России.
+                    Поехали с нами за новыми впечатлениями!</p>
+                <button class="header__button">
+                    подобрать тур
+                </button>
+            </div>
         </div>
     </header>
 

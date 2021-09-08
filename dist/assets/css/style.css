@@ -5,5 +5,15 @@ body {
 }
 
 .header {
-    background: url("./../../images/main-screen.jpg");
+    height: 940px;
+    background-image: url(.././images/main-screen.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header__top {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
 }

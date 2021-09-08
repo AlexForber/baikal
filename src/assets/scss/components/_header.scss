@@ -1,0 +1,61 @@
+.header{
+  height: 940px;
+  background-image: url(.././images/main-screen.jpg);
+  background-size: cover;
+  background-position: center;
+
+  &__top{
+    height: 81px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo{
+    display: flex;
+    align-items: center;
+
+    &-link{
+      margin-right: 20px;
+    }
+
+    &-title{
+      width: 210px;
+      color: #fff;
+      font-size: 20px;
+      margin: 0;
+    }
+
+    &-modification{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+    }
+  }
+
+  &__information{
+    display: flex;
+
+    position: relative;
+
+    &-phone{
+      margin-right: 69px;
+      font-weight: bold;
+      font-size: 18px;
+
+      &::before{
+        content: " ";
+        position: absolute;
+        background-image:url(.././images/H-phoneLink.svg);
+
+      }
+    }
+  }
+
+  
+
+  
+    
+}

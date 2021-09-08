@@ -4,5 +4,32 @@ body{
     font-size: 16px;
 }
 
+h1, h2, h3, h4, h5, h6{
+    font-family: 'PT Serif', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+a{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+
 @import './style2.scss';
-@import './Header/header.scss';
+@import './components/header';
+@import './components/global'
