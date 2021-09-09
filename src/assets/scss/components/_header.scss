@@ -6,6 +6,7 @@
 
   &__top{
     height: 81px;
+    border-bottom: 1px solid #D9D9DE;
 
     display: flex;
     justify-content: space-between;
@@ -37,10 +38,30 @@
 
   &__information{
     display: flex;
-
     position: relative;
 
-    &-phone{
+    &-email{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+
+      color:#fff;
+
+      position: relative;
+
+      &::before{
+        content: " ";
+        position: absolute;
+        left: -20%;
+        background-image:url(.././images/Email.png);
+
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &-phone{ 
       margin-right: 69px;
       font-weight: bold;
       font-size: 18px;
@@ -48,10 +69,37 @@
       &::before{
         content: " ";
         position: absolute;
-        background-image:url(.././images/H-phoneLink.svg);
+        left: -10%;
+        background-image:url(.././images/Phone.png);
+
+        width: 24px;
+        height: 24px;
 
       }
     }
+  }
+  &__menu{
+    margin-top: 20px;
+
+    &-link{
+      margin-right: 32px;
+    }
+  }
+
+  &__title{
+    margin-top: 106px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-size: 90px;
+    width: 724px;
+  }
+
+  &__text{
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+    margin-top: 8px;
   }
 
   

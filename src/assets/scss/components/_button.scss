@@ -1,0 +1,27 @@
+button{
+    background: transparent;
+    color:#fff;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header__top-button{
+    width: 186px;
+    height: 44px;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    
+}
+
+.header__button{
+    width: 250px;
+    height: 60px;
+    margin-top: 94px;
+
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+
+    font-size: 18px;
+}
