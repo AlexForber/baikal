@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 16px;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -36,6 +37,7 @@ a {
 
 .header__top {
     height: 81px;
+    border-bottom: 1px solid #D9D9DE;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: justify;
@@ -75,6 +77,24 @@ a {
     position: relative;
 }
 
+.header__information-email {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: #fff;
+    position: relative;
+}
+
+.header__information-email::before {
+    content: " ";
+    position: absolute;
+    left: -20%;
+    background-image: url(.././images/Email.png);
+    width: 24px;
+    height: 24px;
+}
+
 .header__information-phone {
     margin-right: 69px;
     font-weight: bold;
@@ -84,10 +104,60 @@ a {
 .header__information-phone::before {
     content: " ";
     position: absolute;
-    background-image: url(.././images/H-phoneLink.svg);
+    left: -10%;
+    background-image: url(.././images/Phone.png);
+    width: 24px;
+    height: 24px;
+}
+
+.header__menu {
+    margin-top: 20px;
+}
+
+.header__menu-link {
+    margin-right: 32px;
+}
+
+.header__title {
+    margin-top: 106px;
+    margin-bottom: 0;
+    color: #FFFFFF;
+    font-size: 90px;
+    width: 724px;
+}
+
+.header__text {
+    font-size: 20px;
+    line-height: 140%;
+    color: #FFFFFF;
+    margin-top: 8px;
 }
 
 .container {
     width: 1120px;
     margin: 0 auto;
+}
+
+button {
+    background: transparent;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.header__top-button {
+    width: 186px;
+    height: 44px;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.header__button {
+    width: 250px;
+    height: 60px;
+    margin-top: 94px;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    font-size: 18px;
 }
