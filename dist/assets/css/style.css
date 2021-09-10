@@ -161,3 +161,29 @@ button {
     border: 1px solid #FFFFFF;
     font-size: 18px;
 }
+
+.information {
+    min-height: 792px;
+    margin-top: 64px;
+}
+
+.information__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.information__block {
+    width: 256px;
+    height: 200px;
+    border-radius: 6px;
+    border: 1px solid #D9D9DE;
+}
+
+.information__link {
+    display: block;
+    margin-top: 13px;
+    margin-left: 19px;
+    font-weight: bold;
+    color: #000;
+}

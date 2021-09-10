@@ -1,0 +1,23 @@
+.directions{
+    min-height: 582px;
+    background-color:#e2f3d5;
+
+    &__title{
+        text-align: center;
+    }
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+
+    &__block{
+        max-width: 256px;
+    }
+
+    &__subtitle{
+        font-size: 16px;
+        margin-top: 16px;
+        line-height: 130%;
+    }
+}
