@@ -187,3 +187,27 @@ button {
     font-weight: bold;
     color: #000;
 }
+
+.directions {
+    min-height: 582px;
+    background-color: #e2f3d5;
+}
+
+.directions__title {
+    text-align: center;
+}
+
+.directions__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.directions__block {
+    max-width: 256px;
+}
+
+.directions__subtitle {
+    font-size: 16px;
+    margin-top: 16px;
+    line-height: 130%;
+}

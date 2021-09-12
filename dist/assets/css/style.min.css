@@ -153,4 +153,10 @@ button {
     margin-top: 16px;
     line-height: 130%; }
 
+.offer__link {
+  display: block;
+  width: 256px;
+  height: 256px;
+  background-image: url(../images/offer/one.jpg); }
+
 /*# sourceMappingURL=style.min.css.map */
