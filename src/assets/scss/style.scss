@@ -10,6 +10,7 @@ h1, h2, h3, h4, h5, h6{
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
+    margin: 0;
 }
 
 p{
@@ -39,4 +40,4 @@ a{
 @import './components/button';
 @import './components/information';
 @import './components/directions';
-@import './components/offer'
+@import './components/offer';
