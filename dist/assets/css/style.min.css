@@ -169,12 +169,25 @@ button {
     display: block;
     width: 256px;
     height: 256px;
-    background-image: url(../images/offer/one.jpg); }
+    border-radius: 6px;
+    background-image: url(../images/offer/one.jpg);
+    position: relative; }
     .offer__link-title {
+      font-family: 'Roboto', sans-serif;
       font-weight: 500;
-      font-size: 18px; }
+      font-size: 18px;
+      line-height: 130%;
+      max-width: 218px;
+      position: absolute;
+      top: 10%;
+      left: 10%; }
     .offer__link-subtitle {
-      font-size: 16px; }
+      font-size: 16px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: normal;
+      position: absolute;
+      left: 10%;
+      bottom: 10%; }
     .offer__link:nth-child(2) {
       background-image: url(../images/offer/two.jpg); }
     .offer__link:nth-child(3) {
@@ -182,6 +195,8 @@ button {
       width: 544px;
       height: 544px;
       background-image: url(../images/offer/3.jpg); }
+    .offer__link:nth-child(3) .offer__link-title {
+      width: 407px; }
     .offer__link:nth-child(4) {
       background-image: url(../images/offer/four.jpg); }
     .offer__link:nth-child(5) {
@@ -203,7 +218,6 @@ button {
     .offer__link:nth-child(13) {
       background-image: url(../images/offer/thirteen.jpg);
       font-size: 24px;
-      text-align: center;
       vertical-align: middle; }
 
 /*# sourceMappingURL=style.min.css.map */
