@@ -315,3 +315,33 @@ button {
     font-size: 24px;
     vertical-align: middle;
 }
+
+.map {
+    min-height: 1284px;
+}
+
+.map__title {
+    text-align: center;
+    padding: 70px 0 40px;
+}
+
+.map__wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    max-height: 609px;
+    margin-top: 76px;
+}
+
+.map__block {
+    max-width: 448px;
+    margin-right: 32px;
+}
+
+.map__text {
+    line-height: 140%;
+    margin-top: 21px;
+}
+
+.map__video {
+    font-size: 35px;
+}

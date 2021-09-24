@@ -238,4 +238,12 @@ button {
   .map__video {
     font-size: 35px; }
 
+.gallery {
+  min-height: 766px;
+  background: #deeffc; }
+  .gallery__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px; }
+
 /*# sourceMappingURL=style.min.css.map */

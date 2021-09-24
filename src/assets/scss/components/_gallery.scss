@@ -1,0 +1,10 @@
+.gallery{
+    min-height: 766px;
+    background: #deeffc;
+
+    &__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 32px;
+    }
+}
