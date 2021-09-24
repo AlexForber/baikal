@@ -1,0 +1,30 @@
+.map{
+    min-height: 1284px;
+
+    &__title{
+        text-align: center;
+        padding: 70px 0 40px;
+    }
+
+    &__wrapper{
+        display: flex;
+        max-height: 609px;
+        margin-top: 76px;
+    }
+
+    &__block{
+        max-width: 448px;
+        margin-right: 32px;
+       
+    }
+
+    &__text{
+        line-height: 140%;
+        margin-top: 21px;
+
+    }
+
+    &__video{
+        font-size: 35px;
+    }
+}

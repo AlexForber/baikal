@@ -234,6 +234,7 @@ button {
     display: block;
     width: 256px;
     height: 256px;
+    border-radius: 6px;
     background-image: url(../images/offer/one.jpg);
     position: relative;
 }
@@ -253,6 +254,9 @@ button {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
 }
 
 .offer__link:nth-child(2) {
