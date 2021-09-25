@@ -356,3 +356,16 @@ button {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 32px;
 }
+
+.reacreation {
+    min-height: 1049px;
+}
+
+.reacreation__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 130%;
+    text-align: center;
+    text-transform: uppercase;
+}

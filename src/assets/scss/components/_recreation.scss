@@ -1,0 +1,35 @@
+.recreation{
+     min-height: 1049px;
+     
+
+     &__title{
+        font-weight: bold;
+        font-size: 44px;
+        line-height: 130%;  
+        text-align: center;
+        text-transform: uppercase;
+
+        padding: 80px 0 45px;
+
+        
+     }
+
+     &__wrapper{
+        display: flex;
+        position: relative;
+        border-bottom:  1px solid #D9D9DE;
+     }
+
+     &__img:nth-child(2){
+        position: relative;
+        top: -19%;
+        left: 23%;
+     }
+
+     &__text{
+         max-width: 736px;
+         margin: 0;
+     }
+
+
+}

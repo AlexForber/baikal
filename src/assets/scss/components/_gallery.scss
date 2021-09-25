@@ -2,6 +2,10 @@
     min-height: 766px;
     background: #deeffc;
 
+    &__title{
+        padding: 44px 0 59px;
+    }
+
     &__wrapper{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
