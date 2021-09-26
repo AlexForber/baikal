@@ -31,5 +31,28 @@
          margin: 0;
      }
 
+     &__facts{
+        display: flex;
+        justify-content: space-between;
+        padding: 41px 0 85px;
+     }
+
+     &__subtitle{
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 130%;
+     }
+
+     &__modification{
+      font-family: 'PT Serif', serif;  
+      font-style: normal;
+      font-weight: bold;
+      font-size: 58px;
+      line-height: 130%;
+           
+      color: #64BD22;
+     }
+
 
 }

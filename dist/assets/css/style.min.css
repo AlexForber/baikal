@@ -143,7 +143,8 @@ button {
   min-height: 582px;
   background-color: #e2f3d5; }
   .directions__title {
-    text-align: center; }
+    text-align: center;
+    padding: 44px 0 50px; }
   .directions__wrapper {
     display: grid;
     grid-template-columns: repeat(4, 1fr); }
@@ -268,5 +269,21 @@ button {
   .recreation__text {
     max-width: 736px;
     margin: 0; }
+  .recreation__facts {
+    display: flex;
+    justify-content: space-between;
+    padding: 41px 0 85px; }
+  .recreation__subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 130%; }
+  .recreation__modification {
+    font-family: 'PT Serif', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 130%;
+    color: #64BD22; }
 
 /*# sourceMappingURL=style.min.css.map */
