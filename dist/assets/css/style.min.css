@@ -286,4 +286,8 @@ button {
     line-height: 130%;
     color: #64BD22; }
 
+.reservation {
+  min-height: 552px;
+  background: #F5F5F7; }
+
 /*# sourceMappingURL=style.min.css.map */
