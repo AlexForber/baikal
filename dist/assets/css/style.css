@@ -416,3 +416,17 @@ button {
     line-height: 130%;
     color: #64BD22;
 }
+
+.reservation {
+    min-height: 552px;
+    background: #F5F5F7;
+}
+
+.reservation__information {
+    width: 256px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9DE;
+    box-sizing: border-box;
+    margin-right: 32px;
+}

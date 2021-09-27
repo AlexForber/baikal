@@ -1,4 +1,40 @@
 .reservation{
     min-height: 552px;
     background: #F5F5F7;
+
+    &__title{
+        text-align: center;
+        padding: 48px 0 51px;
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+
+        &-information{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        }
+    }
+
+    &__information{
+        width: 256px;
+        height: 44px;
+        background: #FFFFFF;
+        border: 1px solid #D9D9DE;
+
+        margin-right: 32px;
+        margin-top: 24px;
+        
+
+        }
+    
+        &__date{
+            width: 153px;
+            height: 44px;
+            border: 1px solid #D9D9DE;
+           
+        }
 }

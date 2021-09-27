@@ -289,5 +289,27 @@ button {
 .reservation {
   min-height: 552px;
   background: #F5F5F7; }
+  .reservation__title {
+    text-align: center;
+    padding: 48px 0 51px; }
+  .reservation__form {
+    display: flex;
+    flex-direction: column; }
+    .reservation__form-information {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center; }
+  .reservation__information {
+    width: 256px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9DE;
+    margin-right: 32px;
+    margin-top: 24px; }
+  .reservation__date {
+    width: 153px;
+    height: 44px;
+    border: 1px solid #D9D9DE; }
 
 /*# sourceMappingURL=style.min.css.map */

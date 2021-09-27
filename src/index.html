@@ -308,16 +308,24 @@
     <section class="reservation">
         <div class="container">
             <h2 class="reservation__title">Забронируйте отдых на Байкале</h2>
-            <form action="" class="form">
-                <input type="name" placeholder="Ваше имя">
-                <input type="tel" placeholder="Телефон">
-                <input type="email" placeholder="E-mail">
-                <input type="text" placeholder="Местность Байкала">
-                <input type="number" placeholder="Количество взрослых">
-                <input type="number" placeholder="Количество детей, их возраст">
-                <input type="data" placeholder="Дата заезда">
-                <input type="data" placeholder="Дата отъезда">
-                <textarea name="" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+            <form action="" class="reservation__form">
+                <div class="reservation__form-information">
+                    <input class="reservation__information" type="name" placeholder="Ваше имя">
+                    <input class="reservation__information" type="tel" placeholder="Телефон">
+                    <input class="reservation__information" type="email" placeholder="E-mail">
+                    <input class="reservation__information" type="text" placeholder="Местность Байкала">
+                    <input class="reservation__information" type="number" placeholder="Количество взрослых">
+                    <input class="reservation__information" type="number" placeholder="Количество детей, их возраст">
+                </div>
+                <div class="reservation__form-wrapp">
+                    <div class="reservation__form-date">
+                        <input class="reservation__date" type="data" placeholder="Дата заезда">
+                        <input class="reservation__date" type="data" placeholder="Дата отъезда">
+                    </div>
+
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Комментарий"></textarea>
+                </div>
+
 
             </form>
         </div>
