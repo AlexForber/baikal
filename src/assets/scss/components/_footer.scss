@@ -1,0 +1,33 @@
+.footer{
+    min-height: 331px;
+    background: #202020;
+
+    &__top{
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 39px;
+        border-bottom: 1px solid #FFFFFF;
+
+        &-title{
+            font-family: 'Roboto', sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+
+            text-transform: uppercase;
+
+            color: #FFFFFF;
+        }
+
+        &-link{
+            margin-top: 17px;
+        }
+
+
+    }
+
+    &__block{
+        display: flex;
+        flex-direction: column;
+    }
+}

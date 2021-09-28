@@ -353,4 +353,25 @@ button {
     color: #76767A;
     font-size: 16px; }
 
+.footer {
+  min-height: 331px;
+  background: #202020; }
+  .footer__top {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 39px;
+    border-bottom: 1px solid #FFFFFF; }
+    .footer__top-title {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      text-transform: uppercase;
+      color: #FFFFFF; }
+    .footer__top-link {
+      margin-top: 17px; }
+  .footer__block {
+    display: flex;
+    flex-direction: column; }
+
 /*# sourceMappingURL=style.min.css.map */
