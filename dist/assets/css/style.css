@@ -422,11 +422,40 @@ button {
     background: #F5F5F7;
 }
 
+.reservation__title {
+    text-align: center;
+    padding: 48px 0 51px;
+}
+
+.reservation__form {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.reservation__form-information {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
 .reservation__information {
     width: 256px;
     height: 44px;
     background: #FFFFFF;
     border: 1px solid #D9D9DE;
-    box-sizing: border-box;
     margin-right: 32px;
+    margin-top: 24px;
+}
+
+.reservation__date {
+    width: 153px;
+    height: 44px;
+    border: 1px solid #D9D9DE;
 }

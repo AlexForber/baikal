@@ -10,12 +10,34 @@
     &__form{
         display: flex;
         flex-direction: column;
+        width: 832px;
+        margin: 0 auto;
+
 
         &-information{
             display: flex;
             flex-wrap: wrap;
+            
+            
+        }
+
+        &-wrapp{
+            display: flex;
+            margin-top: 24px;
+        }
+
+        &-date{
+            display: flex;
+            flex-direction: column;
+            margin-right: 30px;
+        }
+
+        &-submit{
+            display: flex;
             justify-content: center;
-            align-content: center;
+            align-items: center;
+
+            margin-top: 30px;
         }
     }
 
@@ -26,15 +48,66 @@
         border: 1px solid #D9D9DE;
 
         margin-right: 32px;
-        margin-top: 24px;
+        padding-left: 14px;
+
+        &:nth-child(3n){
+            margin-right: 0;
+        }
+
+        
+
+        &:nth-child(n+4){
+            margin-top: 24px;
+        }
+
+       
         
 
         }
+
+        &__button{
+            width: 297px;
+            height: 60px;
+            font-size: 18px;
+            text-align: center;
+            background: #0061D9;
+            border: transparent;
+            border-radius: 30px;
+
+            color: #fff;
+            margin-right: 140px;
+        }
+
+        &__checkbox{
+            margin-right: 16px;
+            height: 26px;
+            width: 26px;
+        }
+
+        
     
         &__date{
             width: 153px;
             height: 44px;
             border: 1px solid #D9D9DE;
+
+            padding-left: 14px;
+
+            &:nth-child(2){
+                margin-top: 24px;
+            }
            
         }
+    &__textarea{
+        width: 649px;
+        height: 112px;
+
+        padding: 11px 0 0 14px;
+    }
+    
+    &__link{
+        text-decoration-line: underline;
+        color: #76767A;
+        font-size: 16px;
+    }
 }
