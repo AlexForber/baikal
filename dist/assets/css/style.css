@@ -29,6 +29,10 @@ a {
     color: #fff;
 }
 
+address {
+    font-style: normal;
+}
+
 .header {
     height: 940px;
     background-image: url(.././images/main-screen.jpg);
@@ -560,4 +564,23 @@ button {
     -ms-flex-direction: column;
     flex-direction: column;
     line-height: 130%;
+}
+
+.footer__bottom {
+    padding: 32px 0 45px;
+}
+
+.footer__bottom-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 130%;
+}
+
+.footer__bottom-text {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 130%;
+    opacity: 0.8;
 }

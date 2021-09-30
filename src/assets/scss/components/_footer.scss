@@ -22,6 +22,7 @@
         &-link{
             font-size: 16px;
             margin-top: 17px;
+            opacity: 0.8;
                         
         }
 
@@ -35,7 +36,17 @@
     }
 
     &__bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
         padding: 32px 0 45px;
+
+        &-block:last-child {
+            display: flex;
+            flex-direction: column;
+        }
+        
 
         &-title{
             font-family: 'Roboto', sans-serif;
@@ -50,6 +61,24 @@
             font-size: 14px;
             line-height: 130%;
             opacity: 0.8;
+            margin-top: 7px;
+        }
+
+        &-link{
+            font-size: 14px;
+            text-decoration: underline;
+        }
+
+        &-link:last-child{
+            opacity: 0.8;
+            font-size: 12px;
+            text-decoration: none;
+            margin: 12px 0 0 100px;
+            
+        }
+
+        &-logo{
+            margin-right: 14px;
         }
     }
 }
