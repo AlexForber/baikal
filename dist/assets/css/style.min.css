@@ -200,7 +200,13 @@ button {
       height: 544px;
       background-image: url(../images/offer/3.jpg); }
     .offer__link:nth-child(3) .offer__link-title {
-      width: 407px; }
+      width: 407px;
+      top: 5%;
+      left: 5%; }
+    .offer__link:nth-child(3) .offer__link-subtitle {
+      width: 218px;
+      left: 5%;
+      bottom: 5%; }
     .offer__link:nth-child(4) {
       background-image: url(../images/offer/four.jpg); }
     .offer__link:nth-child(5) {
@@ -408,6 +414,22 @@ button {
       text-decoration: none;
       margin: 12px 0 0 100px; }
     .footer__bottom-logo {
-      margin-right: 14px; }
+      margin-left: 14px; }
+
+@media only screen and (min-width: 769px) and (max-width: 1089px) {
+  .container {
+    width: 1024px; }
+  .information__wrapper {
+    grid-template-columns: 1fr 1fr 1fr; }
+  .offer__link {
+    width: 232px;
+    height: 232px; }
+    .offer__link:nth-child(3) {
+      width: 494px;
+      height: 494px; }
+  iframe {
+    width: 1024px; }
+  .gallery__image {
+    width: 320px; } }
 
 /*# sourceMappingURL=style.min.css.map */

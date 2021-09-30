@@ -1,0 +1,28 @@
+@media only screen and (min-width : 769px) and (max-width : 1089px) {
+
+    .container{
+        width: 1024px;
+    }
+    
+    .information__wrapper{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .offer__link{
+        width: 232px;
+        height: 232px;
+
+        &:nth-child(3){
+            width: 494px;
+            height: 494px;
+        }
+    }
+
+    iframe{
+        width: 1024px;
+    }
+
+    .gallery__image{
+        width: 320px;
+    }
+}

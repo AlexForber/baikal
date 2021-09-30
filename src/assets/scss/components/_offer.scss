@@ -47,6 +47,7 @@
             left: 10%;
             bottom: 10%;
             
+            
         }
         &:nth-child(2){
             background-image: url(../images/offer/two.jpg);
@@ -61,6 +62,14 @@
 
         &:nth-child(3) .offer__link-title{
             width: 407px;
+            top: 5%;
+            left: 5%;
+        }
+
+        &:nth-child(3) .offer__link-subtitle{
+            width: 218px;
+            left: 5%;
+            bottom: 5%;
         }
         
         &:nth-child(4){
