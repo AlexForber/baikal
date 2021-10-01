@@ -123,6 +123,10 @@ address {
     margin-right: 32px;
 }
 
+.header__menu-link:last-child {
+    margin-right: 0;
+}
+
 .header__title {
     margin-top: 106px;
     margin-bottom: 0;
@@ -277,6 +281,14 @@ button {
 
 .offer__link:nth-child(3) .offer__link-title {
     width: 407px;
+    top: 5%;
+    left: 5%;
+}
+
+.offer__link:nth-child(3) .offer__link-subtitle {
+    width: 218px;
+    left: 5%;
+    bottom: 5%;
 }
 
 .offer__link:nth-child(4) {
@@ -613,5 +625,63 @@ button {
 }
 
 .footer__bottom-logo {
-    margin-right: 14px;
+    margin-left: 14px;
+}
+
+@media only screen and (min-width: 321px) and (max-width: 736px) {
+    .container {
+        width: 672px;
+    }
+
+    .header {
+        padding: 18px 32px 24px;
+    }
+
+    .header__information-email {
+        display: none;
+    }
+
+    .header__information-phone {
+        display: none;
+    }
+
+    .header__title {
+        font-size: 64px;
+    }
+
+    .header__text {
+        font-size: 18px;
+    }
+
+    .header__button {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 737px) and (max-width: 1088px) {
+    .container {
+        width: 1024px;
+    }
+
+    .information__wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .offer__link {
+        width: 232px;
+        height: 232px;
+    }
+
+    .offer__link:nth-child(3) {
+        width: 494px;
+        height: 494px;
+    }
+
+    iframe {
+        width: 1024px;
+    }
+
+    .gallery__image {
+        width: 320px;
+    }
 }

@@ -1,0 +1,84 @@
+@media only screen and (min-width :321px ) and (max-width : 736px){
+    .container{
+        width: 672px;
+    }
+
+
+    .header{
+        padding: 18px 32px 24px;
+
+        &__information-email{
+            display: none;
+        }
+    
+        &__information-phone{
+            display: none;
+        }
+
+        &__title{
+            font-size: 64px;
+        }
+
+        &__text{
+            font-size: 18px;
+        }
+
+        &__button{
+            font-size: 16px;
+        }
+    }
+
+    .information__wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .information__block{
+        width: 320px;
+        height: 250px;
+    }
+
+    .information__img{
+        width: 320px;
+        height: 190px;
+    }
+
+
+    .directions__wrapper{
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 22px 32px;
+    }
+
+    .directions__block{
+        max-width: 318px
+    }
+
+
+    .offer__wrapper{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .offer__link{
+        width: 320px;
+        height: 320px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+      
+
+
+        &:nth-child(3){
+            grid-area: 3/1/3/3 ;
+            background-position: center center;
+            width: 671px;
+            height: 671px;
+        }
+        
+    }
+
+    iframe{
+        width: 672px;
+        height: 500px;
+    }
+
+   
+}

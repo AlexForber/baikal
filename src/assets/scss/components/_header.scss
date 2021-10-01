@@ -19,6 +19,8 @@
 
     &-link{
       margin-right: 20px;
+
+     
     }
 
     &-title{
@@ -83,6 +85,10 @@
 
     &-link{
       margin-right: 32px;
+
+      &:last-child{
+        margin-right: 0;
+      }
     }
   }
 
