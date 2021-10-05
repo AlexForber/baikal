@@ -1,4 +1,4 @@
-@media only screen and (min-width :321px ) and (max-width : 736px){
+@media only screen and (min-width :736px ) and (max-width : 1087px){
     .container{
         width: 672px;
     }
@@ -80,5 +80,63 @@
         height: 500px;
     }
 
-   
+    .map__wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .map__block{
+        max-width: 672px;
+    }
+
+    .gallery{
+        padding-bottom: 40px;
+
+
+
+        &__wrapper{
+            grid-template-columns: 1fr 1fr;
+        }
+    
+        &__image{
+            width: 320px;
+            height: 232px;
+        }
+    }
+
+    
+    
+    .recreation__wrapp{
+        display: none;
+    }
+
+    .recreation__text{
+        line-height: 140%;
+    }
+
+    .recreation__facts{
+        padding-bottom: 40px;
+    }
+
+
+    .recreation__subtitle{
+        font-size: 14px;
+    }
+
+
+   .recreation__modification{
+       font-size: 43px;
+   }
+
+   .reservation__information{
+       width: 672px;
+
+       &:nth-child(n+2){
+           margin-top: 14px;
+       }
+   }
+
+   .reservation__textarea{
+       width: 496px;
+   }
 }
